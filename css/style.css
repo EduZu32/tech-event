@@ -1,0 +1,52 @@
+/* Animación de partículas */
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #f8f9fa; /* fondo base opcional */
+}
+
+main {
+  flex: 1;
+}
+
+/* Fondo y fuente base */
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header minimalista */
+header {
+  background-color: #007bff;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer fijo en la parte inferior */
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #666;
+  background-color: #f8f9fa;
+  margin-top: auto;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+}
